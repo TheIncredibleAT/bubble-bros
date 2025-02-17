@@ -376,6 +376,10 @@ img, video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
+.p-10 {
+  padding: 2.5rem;
+}
+
 .p-12 {
   padding: 3rem;
 }
@@ -384,21 +388,51 @@ img, video {
   padding: .5rem;
 }
 
-.p-40 {
-  padding: 10rem;
+.p-4 {
+  padding: 1rem;
 }
 
 .p-8 {
   padding: 2rem;
 }
 
+.p-\[80px\] {
+  padding: 80px;
+}
+
+.pb-2 {
+  padding-bottom: .5rem;
+}
+
+.pl-4 {
+  padding-left: 1rem;
+}
+
+.pt-2 {
+  padding-top: .5rem;
+}
+
 .text-center {
   text-align: center;
+}
+
+.text-\[22px\] {
+  font-size: 22px;
+}
+
+.text-blue-400 {
+  --tw-text-opacity: 1;
+  color: rgb(96 165 250 / var(--tw-text-opacity, 1));
 }
 
 .text-blue-600 {
   --tw-text-opacity: 1;
   color: rgb(37 99 235 / var(--tw-text-opacity, 1));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
 .antialiased {
@@ -427,17 +461,33 @@ ul {
 }
 
 li {
-  margin-left: 2em;
+  margin-left: 2rem;
 }
 
 .banner {
   background-image: url("/_next/static/media/towfiqu-barbhuiya--9gPKrsbGmc-unsplash.5bd79117.jpg");
   background-position: center;
   background-size: cover;
+  height: 20rem;
+}
+
+.c-btn:hover {
+  background-color: #7fb6f8;
+  color: #fff;
 }
 
 .company {
-  font-size: 4em;
+  font-size: 5em;
+  color: #fff;
+  font-family: Courier New, Courier, monospace;
+}
+
+.crew-pic {
+  background-image: url("/_next/static/media/philip-myrtorp-osuaUc0LMMM-unsplash.55a4bccc.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 20rem;
+  width: 20rem;
   color: #fff;
 }
 

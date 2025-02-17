@@ -1,13 +1,14 @@
 import Image from "next/image";
-import tempPic from "../../public/philip-myrtorp-osuaUc0LMMM-unsplash.jpg";
 import tempClean from "../../public/crystal-de-passille-chabot-9gzU1mtTzWM-unsplash.jpg";
 
 export default function Home() {
   return (
     <div>
       {/* Header section */}
-      <div className="banner p-40 m-auto">
-        <span className="company">Bubble Bros</span>
+      <div className="banner m-auto">
+        <div className="p-[80px]">
+          <span className="company">CLEA<span className="text-blue-400">N</span>EST</span>
+        </div>
       </div>
 
       {/* Insert Navbar section */}
@@ -15,21 +16,28 @@ export default function Home() {
       <main className="flex-1">
         {/* Introduction section */}
         <div className="bg-blue-200">
-          <div className="p-12 w-1/2 m-auto flex">
-            <div>
-              <Image 
-                src={tempPic} 
-                alt="Picture of Cleaner"
-                width={100}
-                height={100} 
-              />
+          <div className="p-12 w-3/4 m-auto flex">
+            <div className="crew-pic">
+              <div>The Crew</div>
             </div>
 
-            <div className="flex">
+            <div className="flex-1 pl-4">
               <div className="p-2">
-                Blurb about company, crew, and business plans/goals/ideas.
+                <div className="pb-2">
+                  As a worker myself, I understand the inconvenience of coming home after a long day of work to clean. 
+                  Having to pick and choose between sacrificing hobbies or cleaning. 
+                  Well we're here to help, at CLEANEST we're here to ensure you have plenty of time. 
+                  We're here to let YOU CHOOSE.
+                </div>
+                <div className="pt-2">
+                  As a startup cleaning company, we started as just a small side business. 
+                  Occasionally picking up jobs from friend referals and local listings. 
+                  Now we are a family owned business and have a website, so new customers and old can reach us officially.
+                  On here you&apos;ll be able to see our future business plans, goals and future ideas.
+                  Hopefully this website will become something to branch out into a more community engaged website, creating forums and accounts.
+                </div>
               </div>
-              <div className="p-2 w-20 h-10 text-center text-blue-600 bg-white rounded-sm">
+              <div className="c-btn p-2 w-20 h-10 text-center text-blue-600 bg-white rounded-sm">
                 Contact
               </div>
             </div>
@@ -41,8 +49,8 @@ export default function Home() {
         <div>
           <div className="p-12 w-1/2 m-auto">
             <div className="services-container flex">
-              <div>
-                SERVICES
+              <div className="p-10">
+                <span className="text-[22px]">SERVICES</span>
                 <ul>
                   <li>Laundry</li>
                   <li>Mop Floors</li>
@@ -54,7 +62,7 @@ export default function Home() {
                 </ul>
               </div>
 
-              <div>
+              <div className="p-4">
                 <Image
                   src={tempClean}
                   alt="Cleaning Supplies"
@@ -65,8 +73,8 @@ export default function Home() {
             </div>
 
             <div>
-              Do these pics and services interest you?
-              <div className="p-2 w-20 h-10 text-center text-blue-600 bg-white rounded-sm">
+              Interested in some of the services?
+              <div className="c-btn p-2 w-20 h-10 text-center text-white bg-blue-200 rounded-sm">
                 Contact
               </div>
             </div>
@@ -77,7 +85,7 @@ export default function Home() {
         {/* Blurb section */}
         <div className="bg-blue-200">
           <div className="p-12 w-1/2 m-auto flex">
-            <div className="p-2 w-20 h-10 text-center text-blue-600 bg-white rounded-sm">
+            <div className="c-btn p-2 w-20 h-10 text-center text-blue-600 bg-white rounded-sm">
               Contact
             </div>
             <div className="p-2">

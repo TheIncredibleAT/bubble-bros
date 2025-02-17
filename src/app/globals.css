@@ -23,16 +23,32 @@ ul {
 }
 
 li {
-  margin-left: 2em;
+  margin-left: 2rem;
 }
 
 .banner {
   background-image: url("../../public/towfiqu-barbhuiya--9gPKrsbGmc-unsplash.jpg");
   background-position: center;
   background-size: cover;
+  height: 20rem;
+}
+
+.c-btn:hover {
+  background-color: rgb(127, 182, 248);
+  color: white;
 }
 
 .company {
-  font-size: 4em;
+  font-size: 5em;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.crew-pic {
+  background-image: url("../../public/philip-myrtorp-osuaUc0LMMM-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 20rem;
+  width: 20rem;
   color: white;
 }
