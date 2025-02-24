@@ -108,42 +108,62 @@ export default function Home() {
         </div>
         <div>
           <form className="contact-form">
-            {/* Name */}
-            <label>Name:</label>
-            <input type="text" name="name" placeholder="John Smith" className="basic-input" /> 
-            {/* Email */}
-            <label>Email:</label>
-            <input type="email" name="email" placeholder="Email@aol.com" className="basic-input" />
-            {/* sqft */}
-            <label>SQFT:</label>
-            <input type="text" name="sqft" placeholder="1500" className="sqft" />
+            {/* Row 1 */}
+            <div className="flex">
+              {/* Name */}
+              <div className="form-item">
+                <label>Name:</label>
+                <input type="text" name="name" placeholder="John Smith" className="basic-input" />
+              </div>
 
-            {/* Number of Rooms */}
-            <label>Number of Rooms:</label>
-            <select className="room-select">
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5</option>
-              <option>6</option>
-            </select>
+              {/* Email */}
+              <div className="form-item">
+                <label>Email:</label>
+                <input type="email" name="email" placeholder="Email@aol.com" className="basic-input" />
+              </div>
 
-            <label>Number of Services:</label>
-            {/* Number of Services */}
-            <select className="room-select">
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5</option>
-              <option>6</option>
-            </select>
+              {/* sqft */}
+              <div className="form-item">
+                <label>SQFT:</label>
+                <input type="text" name="sqft" placeholder="1500" className="sqft" />
+              </div>
+            </div>
 
+            {/* Row 2 */}
+            <div className="flex">
+              {/* Number of Rooms */}
+              <div className="form-item">
+                <label>Number of Rooms:</label>
+                <select className="room-select">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                  <option>6</option>
+                </select>
+              </div>
+
+              {/* Number of Services */}
+              <div className="form-item">
+                <label>Number of Services:</label>
+                <select className="room-select">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                  <option>6</option>
+                </select>
+              </div>
+            </div>
+
+            {/* Row 3 */}
             {/* Message area */}
             <label>Other Notes:</label>
             <textarea className="contact-message mb-4" placeholder="We have a dog that will be locked up." />
 
+            {/* Row 4 */}
             {/* Submit Button */}
             <button type="submit" className="contact-btn">SUBMIT</button>
           </form>

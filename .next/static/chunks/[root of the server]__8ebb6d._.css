@@ -537,7 +537,7 @@ body {
 }
 
 input {
-  border: 1px solid #000;
+  border: 1px solid #7fb6f8;
   border-radius: 10px;
   padding-left: 1rem;
 }
@@ -562,7 +562,7 @@ ul {
 }
 
 .basic-input {
-  width: 30%;
+  width: 15rem;
 }
 
 .c-btn:hover {
@@ -600,7 +600,7 @@ ul {
 }
 
 .contact-message {
-  border: 1px solid #000;
+  border: 1px solid #7fb6f8;
   border-radius: 10px;
   padding-left: 1rem;
 }
@@ -614,15 +614,21 @@ ul {
   color: #fff;
 }
 
+.form-item {
+  display: flex;
+  flex-direction: column;
+  margin-right: 1rem;
+}
+
 .room-select {
-  border: 1px solid #000;
+  border: 1px solid #7fb6f8;
   border-radius: 10px;
   width: 3rem;
   text-align: center;
 }
 
 .sqft {
-  width: 10%;
+  width: 6rem;
 }
 
 
