@@ -309,6 +309,10 @@ img, video {
   margin: auto;
 }
 
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
 .mt-4 {
   margin-top: 1rem;
 }
@@ -456,12 +460,22 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-ul {
-  list-style-type: disc;
+input {
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding-left: 1rem;
+}
+
+label {
+  padding-top: 1rem;
 }
 
 li {
   margin-left: 2rem;
+}
+
+ul {
+  list-style-type: disc;
 }
 
 .banner {
@@ -469,6 +483,10 @@ li {
   background-position: center;
   background-size: cover;
   height: 20rem;
+}
+
+.basic-input {
+  width: 30%;
 }
 
 .c-btn:hover {
@@ -482,6 +500,35 @@ li {
   font-family: Courier New, Courier, monospace;
 }
 
+.contact-btn {
+  border: 1px solid #fff;
+  border-radius: 10px;
+  background-color: #7fb6f8;
+  color: #fff;
+  width: 10rem;
+  padding: .4rem;
+  margin: auto;
+}
+
+.contact-btn:hover {
+  border: 1px solid #7fb6f8;
+  background-color: #fff;
+  color: #000;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-message {
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding-left: 1rem;
+}
+
 .crew-pic {
   background-image: url("/_next/static/media/philip-myrtorp-osuaUc0LMMM-unsplash.55a4bccc.jpg");
   background-position: center;
@@ -489,6 +536,17 @@ li {
   height: 20rem;
   width: 20rem;
   color: #fff;
+}
+
+.room-select {
+  border: 1px solid #000;
+  border-radius: 10px;
+  width: 3rem;
+  text-align: center;
+}
+
+.sqft {
+  width: 10%;
 }
 
 /*# sourceMappingURL=src_app_globals_b52d8e.css.map*/

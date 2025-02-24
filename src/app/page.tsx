@@ -106,6 +106,48 @@ export default function Home() {
           </ul>
           Email: Company Email
         </div>
+        <div>
+          <form className="contact-form">
+            {/* Name */}
+            <label>Name:</label>
+            <input type="text" name="name" placeholder="John Smith" className="basic-input" /> 
+            {/* Email */}
+            <label>Email:</label>
+            <input type="email" name="email" placeholder="Email@aol.com" className="basic-input" />
+            {/* sqft */}
+            <label>SQFT:</label>
+            <input type="text" name="sqft" placeholder="1500" className="sqft" />
+
+            {/* Number of Rooms */}
+            <label>Number of Rooms:</label>
+            <select className="room-select">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+              <option>6</option>
+            </select>
+
+            <label>Number of Services:</label>
+            {/* Number of Services */}
+            <select className="room-select">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+              <option>6</option>
+            </select>
+
+            {/* Message area */}
+            <label>Other Notes:</label>
+            <textarea className="contact-message mb-4" placeholder="We have a dog that will be locked up." />
+
+            {/* Submit Button */}
+            <button type="submit" className="contact-btn">SUBMIT</button>
+          </form>
+        </div>
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
         Footer
